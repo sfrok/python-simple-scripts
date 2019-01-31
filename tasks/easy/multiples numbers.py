@@ -1,4 +1,4 @@
-# Task: Create program which print all numbers multiples 5, between in two customer numbers.
+# Task: Create the program which print all numbers multiples 5, between in two customer numbers.
 
 
 first_num = int(input('Enter firs number: '))

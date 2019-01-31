@@ -1,4 +1,4 @@
-# Task: Create program which find simple numbers between 0 and customer number.
+# Task: Create the program which find simple numbers between 0 and customer number.
 
 
 customer_number = int(input('Enter natural number: '))

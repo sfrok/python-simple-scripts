@@ -1,9 +1,9 @@
 # Task: Write the program which is count rectangle area.
 
 
-height = int(input('Enter the height: '))
+length = int(input('Enter the length: '))
 width = int(input('Enter the width: '))
 
-print('Rectangle area is: ', height * width)
+print('Rectangle area is: ', length * width)
 
 

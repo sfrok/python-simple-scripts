@@ -1,4 +1,4 @@
-# Task: make simple operations with numbers.
+# Task: simple operations with numbers.
 
 
 first_num = int(input('Enter firs number: '))
