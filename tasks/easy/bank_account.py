@@ -15,6 +15,7 @@ print(bank(a, years))
 
 
 # option2
+
 def bank(a, years):
     if years > 0:
         return bank(a + a / 10, years - 1)
