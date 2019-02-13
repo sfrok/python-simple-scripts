@@ -6,4 +6,4 @@ def getCount(inputStr):
     return result
 
 
-print(getCount(inputStr='ooabcuii'))
+print(getCount(inputStr='fgdgdgdfgdg'))
