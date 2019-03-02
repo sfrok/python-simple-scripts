@@ -9,6 +9,8 @@ def square(side_square):
     return result
 
 
-side_square = int(input('Enter a side of square: '))
+try:
+    side_square = int(input('Enter a side of square: '))
+except:
+    print('Please check you input statement')
 
-print(square(side_square))
