@@ -27,5 +27,5 @@ def decipher_this(string):
     return ' '.join(format_sentence)
 
 
-string = input('Enter a string which will decrypt: ')
+string = input('Enter a message which will be decrypt: ')
 print('Decrypted message: ', decipher_this(string))
