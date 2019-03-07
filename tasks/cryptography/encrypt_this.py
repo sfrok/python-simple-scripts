@@ -22,5 +22,5 @@ def encrypt_this(text):
     return ' '.join(format_words)
 
 
-text = input('Enter a string: ')
-print(encrypt_this(text))
+text = input('Enter a string which will be encrypt: ')
+print('Encrypted string: ', encrypt_this(text))
