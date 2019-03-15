@@ -1,16 +1,17 @@
 # Task: Create the program which find simple numbers between 0 and customer number.
 
 
-customer_number = int(input('Enter natural number: '))
-simple_numbers = []
-
-for number in range(0, customer_number):
-    if number > 1:
-        for divider in range(2, number):
-            if number % divider == 0:
-                break
+def is_prime(num):
+    if num <= 1:
+        return False
+    elif num == 2:
+        return True
+    else:
+        for number in range(2, num):
+            if num % number == 0:
+                return False
         else:
-            simple_numbers.append(number)
+            return True
 
 
-print('Simple numbers: ', simple_numbers)
+print(is_prime(2))
