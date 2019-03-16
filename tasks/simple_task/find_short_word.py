@@ -1,7 +1,7 @@
 def find_short(s):
-    list = s.split()
-    l = len(sorted(list, key = len)[0])
-    return l
+    content = s.split()
+    short_word = len(sorted(content, key=len)[0])
+    return short_word
 
 
 print(find_short('dasdas dasda dsd sdsdadasd'))

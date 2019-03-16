@@ -1,9 +1,8 @@
-def make_negative( number ):
-    check_number = str(number)
-    if check_number[0] == '-':
-        return number
+def make_negative(number):
+    if number > 0:
+        return number * -1
     else:
-        return number * (-1)
+        return number
 
 
-print(make_negative(-1))
+print(make_negative(3))
