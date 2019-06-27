@@ -1,3 +1,6 @@
+# option1
+
+
 def processes(start, end, processes):
     d = {}
     p = {}
@@ -21,3 +24,19 @@ test_processes = [
     ['mill', 'wheat', 'flour']
 ]
 print(processes('field', 'bread', test_processes))
+
+
+# option2
+
+
+def processes(start, end, processes):
+    if start == end: return []
+    d = {i[1]: [i[0], i[2]] for i in processes}
+    result = []
+    try:
+        while start != end:
+            result.append(d[start][0])
+            start = d[start][1]
+    except:
+        return []
+    return result
