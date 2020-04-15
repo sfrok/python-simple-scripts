@@ -1,2 +1,2 @@
-# learning-python
-Learning pure python with his standard library.
+# python scripts
+pure python with his standard library.
